@@ -1,0 +1,30 @@
+# --- Configuracao e segredos ---
+.env
+
+# --- Documentos privados e artefatos derivados deles ---
+# Atencao: nao basta ignorar os PDFs. chroma_db/ e cache_texto/ guardam
+# o TEXTO extraido dos documentos, entao precisam sair junto.
+documentos/
+chroma_db/
+chroma_db_backup/
+cache_texto/
+txt_convertidos/
+
+# NOTA: documentos_exemplo/ NAO entra aqui. E a pasta versionada, com
+# documentos publicos, para que o projeto funcione para quem clonar.
+
+# --- Ambiente Python ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# --- Saidas geradas ---
+diagrama_agente.png
+
+# --- Editor e sistema operacional ---
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

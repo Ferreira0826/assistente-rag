@@ -1,0 +1,21 @@
+# --- RAG (ja existente) ---
+chromadb
+pypdf
+streamlit
+
+# --- OCR para PDFs escaneados ---
+pytesseract
+pdf2image
+
+# --- LLM local (fallback opcional) ---
+ollama
+
+# --- Camada de agente / function calling (ETAPAS 2 e 3) ---
+openai
+python-dotenv
+
+# --- Framework de agentes (ETAPA 4) ---
+langgraph
+
+# --- Fuso horario no Windows (necessario para zoneinfo) ---
+tzdata
