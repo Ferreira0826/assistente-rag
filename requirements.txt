@@ -1,21 +1,21 @@
 # --- RAG (ja existente) ---
-chromadb
-pypdf
-streamlit
+chromadb==1.5.9
+pypdf==6.20.1
+streamlit==1.61.1
 
 # --- OCR para PDFs escaneados ---
-pytesseract
-pdf2image
+pytesseract==0.3.13
+pdf2image==1.17.0
 
 # --- LLM local (fallback opcional) ---
-ollama
+ollama==0.6.2
 
 # --- Camada de agente / function calling (ETAPAS 2 e 3) ---
-openai
-python-dotenv
+openai==3.1.0
+python-dotenv==1.2.3
 
 # --- Framework de agentes (ETAPA 4) ---
-langgraph
+langgraph==1.2.11
 
 # --- Fuso horario no Windows (necessario para zoneinfo) ---
-tzdata
+tzdata==2026.3
