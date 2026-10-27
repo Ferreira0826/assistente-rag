@@ -1,6 +1,6 @@
 # --- RAG (ja existente) ---
 chromadb==1.5.9
-pypdf==6.20.1
+pypdf==6.21.2
 streamlit==1.61.1
 
 # --- OCR para PDFs escaneados ---
